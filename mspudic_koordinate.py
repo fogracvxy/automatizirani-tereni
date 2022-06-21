@@ -14,7 +14,7 @@ import sys
 from helium._impl import FileInput
 from todoist.api import TodoistAPI
 #Todoist API code
-api = TodoistAPI('9dc003676c1428d5430099c43fca59f09b9dd85b')
+api = TodoistAPI('')
 api.sync()
 #Dohvacanje projekata nepotreban kod ali neka stoji za ubudce ne skodi ne usporava kod nista posebno
 projects = api['projects']
